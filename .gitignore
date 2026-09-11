@@ -1,0 +1,24 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+.coverage*
+*.gcode
+*.gcode.3mf
+*.blend[0-9]
+*.blend@
+*.autosave
+.bambu-preflight/
+.work/
+.codex/auth.json
+.codex/sessions/
+.codex/log/
+
+# Restricted-source groups must not enter this repository accidentally.
+/models/tplink_shelf/
+/models/tplink_closures/
+/models/rpi4_snap/
+/models/snap_frame_2u/

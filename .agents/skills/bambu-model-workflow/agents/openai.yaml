@@ -1,0 +1,19 @@
+interface:
+  display_name: "Bambu Model Workflow"
+  short_description: "Validate, slice, and publish Bambu models"
+  default_prompt: "Use $bambu-model-workflow to validate this model for Bambu Studio and prepare a reviewed MakerWorld workflow."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "playwright"
+      description: "Browser automation for MakerWorld discovery and reviewed draft workflows"
+    - type: "mcp"
+      value: "blender"
+      description: "Blender inspection, repair, and model editing"
+    - type: "mcp"
+      value: "bambu_modeling"
+      description: "Offline STL inspection, templating, and Bambu Studio slicing"
+
+policy:
+  allow_implicit_invocation: true

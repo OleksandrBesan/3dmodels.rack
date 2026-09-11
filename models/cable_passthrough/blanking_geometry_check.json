@@ -1,0 +1,15 @@
+{
+  "single_connected_solid": true,
+  "entry_stem_width_mm": 11.4,
+  "panel_channel_depth_mm": 10.6,
+  "cover_width_mm": 16.8,
+  "clearance_each_side_mm": 0.3,
+  "top_protrusion_mm": 1.9,
+  "collision_checks": 72,
+  "print_dimensions_mm": [
+    16.799999237060547,
+    37.92500019073486,
+    14.900000095367435
+  ],
+  "physically_tested": false
+}

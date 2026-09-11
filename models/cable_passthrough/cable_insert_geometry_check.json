@@ -1,0 +1,30 @@
+{
+  "8": {
+    "panel_checks": 72,
+    "cable_checks": 72,
+    "max_overlap_mm3": 0.0,
+    "checked_cable_diameter_mm": 7,
+    "slot_width_mm": 8,
+    "print_dimensions_mm": [
+      16.799999237060547,
+      37.92500019073486,
+      14.900001049041752
+    ],
+    "physically_tested": false,
+    "source_sha256": "d16ffe922398bf1c9404e54634fee8d6a3fb349b049ef36debee76d1f47bd32e"
+  },
+  "10": {
+    "panel_checks": 72,
+    "cable_checks": 72,
+    "max_overlap_mm3": 0.0,
+    "checked_cable_diameter_mm": 9,
+    "slot_width_mm": 10,
+    "print_dimensions_mm": [
+      16.799999237060547,
+      37.92500019073486,
+      14.900001049041752
+    ],
+    "physically_tested": false,
+    "source_sha256": "d16ffe922398bf1c9404e54634fee8d6a3fb349b049ef36debee76d1f47bd32e"
+  }
+}

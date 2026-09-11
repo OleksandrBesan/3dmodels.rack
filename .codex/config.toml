@@ -1,0 +1,43 @@
+# Optional integrations. Start Codex from the repository root.
+# Review package provenance and docs/codex.md before enabling any server.
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+
+[mcp_servers.blender]
+command = "uvx"
+args = ["--from", "blender-mcp==1.9.1", "blender-mcp"]
+enabled = false
+required = false
+startup_timeout_sec = 30
+tool_timeout_sec = 180
+default_tools_approval_mode = "writes"
+
+[mcp_servers.blender.env]
+BLENDER_HOST = "localhost"
+BLENDER_PORT = "9876"
+DISABLE_TELEMETRY = "true"
+
+[mcp_servers.playwright]
+command = "npx"
+args = ["-y", "@playwright/mcp@0.0.80", "--browser", "chrome", "--user-data-dir", ".bambu-preflight/playwright-profile", "--output-dir", ".bambu-preflight/playwright-output"]
+enabled = false
+required = false
+startup_timeout_sec = 45
+tool_timeout_sec = 180
+default_tools_approval_mode = "writes"
+
+[mcp_servers.bambu_modeling]
+command = "npx"
+args = ["-y", "@rowbotik/bambu-printer-mcp@1.1.1"]
+enabled = false
+required = false
+env_vars = ["SLICER_PATH"]
+startup_timeout_sec = 45
+tool_timeout_sec = 300
+default_tools_approval_mode = "writes"
+enabled_tools = ["get_stl_info", "scale_stl", "rotate_stl", "extend_stl_base", "merge_vertices", "center_model", "lay_flat", "list_templates", "save_template", "get_slice_settings", "slice_with_template", "slice_stl"]
+
+[mcp_servers.bambu_modeling.env]
+MCP_TRANSPORT = "stdio"
+SLICER_TYPE = "bambustudio"
+TEMP_DIR = ".bambu-preflight/bambu"
