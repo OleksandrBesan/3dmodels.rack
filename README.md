@@ -3,13 +3,13 @@
 Selected rack accessories and print utilities, with STL files, editable Bambu
 Studio projects, and an optional Codex-assisted modeling workflow.
 
-This is a clean-history release candidate, not a copy of the private development
+This is a clean-history collection, not a copy of the private development
 repository. Restricted-source shelves, KWS parts, old revisions, browser
 sessions, and personal machine configuration are not included.
 
-**Publication status:** private preparation; review [licensing](LICENSE.md)
-and [excluded models](docs/excluded-models.md) before making public.
-The [release checklist](docs/release-checklist.md) records passed checks and remaining blockers.
+Review [licensing](LICENSE.md) and [excluded models](docs/excluded-models.md).
+The [release checklist](docs/release-checklist.md) records passed checks and
+remaining uncertainties, including the unverified upstream cable-license version.
 Original models: **CC BY-NC-SA 4.0**. Code/docs/Codex setup: **MIT**.
 Upstream cable-panel geometry retains its own terms; see [license scope](LICENSE.md).
 

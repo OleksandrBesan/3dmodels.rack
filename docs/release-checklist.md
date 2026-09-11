@@ -1,6 +1,8 @@
 # Release review — 2026-09-11
 
-This is a **private draft**, not legal clearance or a guarantee of printable fit.
+The owner requested public visibility on 2026-09-11 after being informed of the
+unresolved cable-panel license version. Publication is not legal clearance or
+a guarantee of printable fit; the upstream uncertainty below remains open.
 
 ## Completed
 
@@ -20,15 +22,15 @@ This is a **private draft**, not legal clearance or a guarantee of printable fit
   no matches. This is not a full third-party security certification.
 - Temporary logs and diagnostic scripts remain ignored, outside the public tree.
 
-## Before changing visibility
+## Publication review
 
 - [x] Owner approved CC BY-NC-SA 4.0 for original models and MIT for code,
   documentation and Codex setup on 2026-09-11; scope recorded in `LICENSE.md`.
 - [ ] Confirm the precise upstream CC BY-NC-SA version and add the correct
-  license notice/link for the cable-panel source and derivative. Alternatively,
-  withhold that geometry and adjust dependent tests/tools/docs before publication.
-- [ ] Review the exact staged/pushed file list and the license scope again.
-- [ ] Owner explicitly approves making this prepared repository public.
+  license notice/link for the cable-panel source and derivative. The final live
+  check returned HTTP 403; the original `BY-NC-SA` label is retained unchanged.
+- [x] Reviewed the staged/pushed file list and license scope; no new models added.
+- [x] Owner explicitly requested making this prepared repository public.
 
 ## Not claimed
 

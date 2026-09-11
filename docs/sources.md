@@ -2,7 +2,7 @@
 
 | Collection | Origin | Distribution status |
 | --- | --- | --- |
-| Cable top-entry panel and `tools/sources/cable_panel_blank.stl` | Direct mesh remix of Dawnchaser's MakerWorld 576762 | Download metadata identifies `BY-NC-SA`; exact version must be confirmed before public release |
+| Cable top-entry panel and `tools/sources/cable_panel_blank.stl` | Direct mesh remix of Dawnchaser's MakerWorld 576762 | Download metadata identifies `BY-NC-SA`; exact version remains unverified and is not replaced by the owner's 4.0 grant |
 | Solid blank and 8/10 mm cable caps | Locally designed sliding accessory; caps are derivatives of that local blank | CC BY-NC-SA 4.0; no separate third-party insert mesh imported |
 | TP-Link plain, lettered and vented strips | Locally generated primitives, text and mounting dimensions | CC BY-NC-SA 4.0; compatibility reference only |
 | Cleanup patches | Locally generated shapes based on print residue | CC BY-NC-SA 4.0; no MakerWorld geometry |
@@ -24,7 +24,7 @@
 
 The source label permits a noncommercial ShareAlike release in principle, but
 do not silently replace an unspecified upstream version with 4.0. Confirm the
-source page's exact license link or ask the creator before publication. See
+source page's exact license link or ask the creator to resolve this uncertainty. See
 [Creative Commons license conditions](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 for the 4.0 example, not proof that this source used that version.
 

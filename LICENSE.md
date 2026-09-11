@@ -32,7 +32,8 @@ MIT does not relicense the depicted models. License texts retain their own terms
 
 `models/cable_passthrough/PatchPanel_TOP_ENTRY_12MM_V1.stl` and `.3mf`, and
 `tools/sources/cable_panel_blank.stl`, retain Dawnchaser's recorded `BY-NC-SA`
-terms. The numerical version must still be confirmed before public release.
+terms. The numerical version remains unverified: the original download names
+the license family but no version, and the live source page could not be accessed.
 The owner's approval above does **not** replace the upstream license with 4.0
 or grant rights the owner does not hold.
 
@@ -40,4 +41,4 @@ Third-party software dependencies are not vendored; their own terms apply.
 Restricted-source models are excluded, rather than relicensed.
 
 See [provenance](docs/sources.md) and [excluded models](docs/excluded-models.md).
-Keep the repository private until the release blockers are resolved.
+Public availability does not resolve that uncertainty or provide broader rights.
