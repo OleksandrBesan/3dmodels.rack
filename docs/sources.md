@@ -3,10 +3,10 @@
 | Collection | Origin | Distribution status |
 | --- | --- | --- |
 | Cable top-entry panel and `tools/sources/cable_panel_blank.stl` | Direct mesh remix of Dawnchaser's MakerWorld 576762 | Download metadata identifies `BY-NC-SA`; exact version must be confirmed before public release |
-| Solid blank and 8/10 mm cable caps | Locally designed sliding accessory; caps are derivatives of that local blank | No separate third-party insert mesh imported; owner license decision pending |
-| TP-Link plain, lettered and vented strips | Locally generated primitives, text and mounting dimensions | Compatibility reference only; owner license decision pending |
-| Cleanup patches | Locally generated shapes based on print residue | No MakerWorld geometry; owner license decision pending |
-| Tools, documentation and Codex skill/configuration | Local workflow implementation | Owner license decision pending; external packages not vendored |
+| Solid blank and 8/10 mm cable caps | Locally designed sliding accessory; caps are derivatives of that local blank | CC BY-NC-SA 4.0; no separate third-party insert mesh imported |
+| TP-Link plain, lettered and vented strips | Locally generated primitives, text and mounting dimensions | CC BY-NC-SA 4.0; compatibility reference only |
+| Cleanup patches | Locally generated shapes based on print residue | CC BY-NC-SA 4.0; no MakerWorld geometry |
+| Tools, documentation and Codex skill/configuration | Local workflow implementation | MIT; external packages not vendored; upstream model rights are not relicensed |
 
 ## Cable panel attribution
 

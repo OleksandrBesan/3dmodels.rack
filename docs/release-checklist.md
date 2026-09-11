@@ -22,7 +22,8 @@ This is a **private draft**, not legal clearance or a guarantee of printable fit
 
 ## Before changing visibility
 
-- [ ] Owner approves licenses for original models, code and documentation.
+- [x] Owner approved CC BY-NC-SA 4.0 for original models and MIT for code,
+  documentation and Codex setup on 2026-09-11; scope recorded in `LICENSE.md`.
 - [ ] Confirm the precise upstream CC BY-NC-SA version and add the correct
   license notice/link for the cable-panel source and derivative. Alternatively,
   withhold that geometry and adjust dependent tests/tools/docs before publication.
